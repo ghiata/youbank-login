@@ -1,0 +1,12 @@
+{
+	"name" : "youbank-login",
+	"version" : "0.0.1",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"angular": "1.2.18",
+		"angular-route": "1.2.18",
+		"bootstrap": "3.1.1",
+		"capapp-style": "https://github.com/FS-CodingNight/capapp-style.git#master"
+    }
+}
