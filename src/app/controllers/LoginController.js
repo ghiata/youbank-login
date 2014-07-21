@@ -12,7 +12,7 @@ angular.module('youbank-login').controller('LoginCtrl', function($scope, $http, 
             Login: $scope.login
         };
 
-        $http.post('/prweb/PRRestService/LoansOrigination/LoansOrigination/GetCustomerInformation', loginData).
+        $http.post(config.login.url , loginData).
             success(function(data, status, headers, config) {
                 console.log(data);
 
